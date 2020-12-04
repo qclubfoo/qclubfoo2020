@@ -1,0 +1,16 @@
+PODS:
+  - qclubfoo2020 (0.0.2)
+
+DEPENDENCIES:
+  - qclubfoo2020 (from `./`)
+
+EXTERNAL SOURCES:
+  qclubfoo2020:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  qclubfoo2020: 64408bfe59107588d96b6c47e0255e7d2da3414b
+
+PODFILE CHECKSUM: a623e86fcf9ff680821fb7dd024077ed35d4d764
+
+COCOAPODS: 1.9.1

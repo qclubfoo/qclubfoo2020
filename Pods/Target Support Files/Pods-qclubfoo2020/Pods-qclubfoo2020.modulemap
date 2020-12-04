@@ -1,0 +1,6 @@
+framework module Pods_qclubfoo2020 {
+  umbrella header "Pods-qclubfoo2020-umbrella.h"
+
+  export *
+  module * { export * }
+}

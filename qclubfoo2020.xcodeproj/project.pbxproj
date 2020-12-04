@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,11 +14,14 @@
 		008273B9257A5DE2001285DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008273B7257A5DE2001285DB /* Main.storyboard */; };
 		008273BB257A5DE4001285DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008273BA257A5DE4001285DB /* Assets.xcassets */; };
 		008273BE257A5DE4001285DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008273BC257A5DE4001285DB /* LaunchScreen.storyboard */; };
-		008273C7257A6005001285DB /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 008273C5257A6005001285DB /* article.xcdatamodeld */; };
+		008273C7257A6005001285DB /* Article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 008273C5257A6005001285DB /* Article.xcdatamodeld */; };
 		008273CE257A688D001285DB /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008273CC257A688D001285DB /* Article+CoreDataProperties.swift */; };
 		008273CF257A688D001285DB /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008273CD257A688D001285DB /* Article+CoreDataClass.swift */; };
 		008273D1257A69F1001285DB /* qclubfoo2020.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 008273D0257A69F1001285DB /* qclubfoo2020.podspec */; };
 		008273F3257A71D4001285DB /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008273F2257A71D4001285DB /* ArticleManager.swift */; };
+		00827418257ACCE6001285DB /* Article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 008273C5257A6005001285DB /* Article.xcdatamodeld */; };
+		45C2C89754CEE53BBB3B3C50 /* Pods_qclubfoo2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3863292A39D6FC07085A6BD9 /* Pods_qclubfoo2020.framework */; };
+		8D54443D1E3A9F0C5984EF38 /* Pods_qclubfoo2020Examples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087A598FD564DE4BED8C4C11 /* Pods_qclubfoo2020Examples.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,11 +36,17 @@
 		008273BA257A5DE4001285DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		008273BD257A5DE4001285DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		008273BF257A5DE4001285DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		008273C6257A6005001285DB /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
+		008273C6257A6005001285DB /* Article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Article.xcdatamodel; sourceTree = "<group>"; };
 		008273CC257A688D001285DB /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		008273CD257A688D001285DB /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataClass.swift"; sourceTree = "<group>"; };
 		008273D0257A69F1001285DB /* qclubfoo2020.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qclubfoo2020.podspec; sourceTree = "<group>"; };
 		008273F2257A71D4001285DB /* ArticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleManager.swift; sourceTree = "<group>"; };
+		087A598FD564DE4BED8C4C11 /* Pods_qclubfoo2020Examples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qclubfoo2020Examples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3863292A39D6FC07085A6BD9 /* Pods_qclubfoo2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qclubfoo2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7C042F76A66A7A8209597A /* Pods-qclubfoo2020Examples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qclubfoo2020Examples.debug.xcconfig"; path = "Target Support Files/Pods-qclubfoo2020Examples/Pods-qclubfoo2020Examples.debug.xcconfig"; sourceTree = "<group>"; };
+		64D8947F22B7D696925E76DF /* Pods-qclubfoo2020Examples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qclubfoo2020Examples.release.xcconfig"; path = "Target Support Files/Pods-qclubfoo2020Examples/Pods-qclubfoo2020Examples.release.xcconfig"; sourceTree = "<group>"; };
+		77B29F5B05A8394C7927C947 /* Pods-qclubfoo2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qclubfoo2020.release.xcconfig"; path = "Target Support Files/Pods-qclubfoo2020/Pods-qclubfoo2020.release.xcconfig"; sourceTree = "<group>"; };
+		9F8E665E7249505BA33741D5 /* Pods-qclubfoo2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qclubfoo2020.debug.xcconfig"; path = "Target Support Files/Pods-qclubfoo2020/Pods-qclubfoo2020.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C2C89754CEE53BBB3B3C50 /* Pods_qclubfoo2020.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D54443D1E3A9F0C5984EF38 /* Pods_qclubfoo2020Examples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +76,8 @@
 				008273A2257A5D1C001285DB /* qclubfoo2020 */,
 				008273B0257A5DE2001285DB /* qclubfoo2020Examples */,
 				008273A1257A5D1C001285DB /* Products */,
+				4B2C776799251E61E9ADA494 /* Pods */,
+				CA51391E7B25D7B0BE9E7AF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,10 +95,10 @@
 			children = (
 				008273CD257A688D001285DB /* Article+CoreDataClass.swift */,
 				008273CC257A688D001285DB /* Article+CoreDataProperties.swift */,
+				008273F2257A71D4001285DB /* ArticleManager.swift */,
 				008273A3257A5D1C001285DB /* qclubfoo2020.h */,
 				008273A4257A5D1C001285DB /* Info.plist */,
-				008273C5257A6005001285DB /* article.xcdatamodeld */,
-				008273F2257A71D4001285DB /* ArticleManager.swift */,
+				008273C5257A6005001285DB /* Article.xcdatamodeld */,
 			);
 			path = qclubfoo2020;
 			sourceTree = "<group>";
@@ -102,6 +115,26 @@
 				008273BF257A5DE4001285DB /* Info.plist */,
 			);
 			path = qclubfoo2020Examples;
+			sourceTree = "<group>";
+		};
+		4B2C776799251E61E9ADA494 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F8E665E7249505BA33741D5 /* Pods-qclubfoo2020.debug.xcconfig */,
+				77B29F5B05A8394C7927C947 /* Pods-qclubfoo2020.release.xcconfig */,
+				3D7C042F76A66A7A8209597A /* Pods-qclubfoo2020Examples.debug.xcconfig */,
+				64D8947F22B7D696925E76DF /* Pods-qclubfoo2020Examples.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA51391E7B25D7B0BE9E7AF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3863292A39D6FC07085A6BD9 /* Pods_qclubfoo2020.framework */,
+				087A598FD564DE4BED8C4C11 /* Pods_qclubfoo2020Examples.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 008273A8257A5D1C001285DB /* Build configuration list for PBXNativeTarget "qclubfoo2020" */;
 			buildPhases = (
+				E20C363F1410241018E5AABE /* [CP] Check Pods Manifest.lock */,
 				0082739B257A5D1C001285DB /* Headers */,
 				0082739C257A5D1C001285DB /* Sources */,
 				0082739D257A5D1C001285DB /* Frameworks */,
@@ -140,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 008273C0257A5DE4001285DB /* Build configuration list for PBXNativeTarget "qclubfoo2020Examples" */;
 			buildPhases = (
+				51FC74D3C98D26765A1E9324 /* [CP] Check Pods Manifest.lock */,
 				008273AB257A5DE2001285DB /* Sources */,
 				008273AC257A5DE2001285DB /* Frameworks */,
 				008273AD257A5DE2001285DB /* Resources */,
+				1A31B42264DBD1BEAD1E72EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,6 +248,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A31B42264DBD1BEAD1E72EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qclubfoo2020Examples/Pods-qclubfoo2020Examples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qclubfoo2020Examples/Pods-qclubfoo2020Examples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qclubfoo2020Examples/Pods-qclubfoo2020Examples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51FC74D3C98D26765A1E9324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qclubfoo2020Examples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20C363F1410241018E5AABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qclubfoo2020-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0082739C257A5D1C001285DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -220,7 +320,7 @@
 				008273CF257A688D001285DB /* Article+CoreDataClass.swift in Sources */,
 				008273CE257A688D001285DB /* Article+CoreDataProperties.swift in Sources */,
 				008273F3257A71D4001285DB /* ArticleManager.swift in Sources */,
-				008273C7257A6005001285DB /* article.xcdatamodeld in Sources */,
+				008273C7257A6005001285DB /* Article.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00827418257ACCE6001285DB /* Article.xcdatamodeld in Sources */,
 				008273B6257A5DE2001285DB /* ViewController.swift in Sources */,
 				008273B2257A5DE2001285DB /* AppDelegate.swift in Sources */,
 				008273B4257A5DE2001285DB /* SceneDelegate.swift in Sources */,
@@ -378,6 +479,7 @@
 		};
 		008273A9257A5D1C001285DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8E665E7249505BA33741D5 /* Pods-qclubfoo2020.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -406,6 +508,7 @@
 		};
 		008273AA257A5D1C001285DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B29F5B05A8394C7927C947 /* Pods-qclubfoo2020.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -433,6 +536,7 @@
 		};
 		008273C1257A5DE4001285DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7C042F76A66A7A8209597A /* Pods-qclubfoo2020Examples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +556,7 @@
 		};
 		008273C2257A5DE4001285DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D8947F22B7D696925E76DF /* Pods-qclubfoo2020Examples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -502,13 +607,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		008273C5257A6005001285DB /* article.xcdatamodeld */ = {
+		008273C5257A6005001285DB /* Article.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				008273C6257A6005001285DB /* article.xcdatamodel */,
+				008273C6257A6005001285DB /* Article.xcdatamodel */,
 			);
-			currentVersion = 008273C6257A6005001285DB /* article.xcdatamodel */;
-			path = article.xcdatamodeld;
+			currentVersion = 008273C6257A6005001285DB /* Article.xcdatamodel */;
+			path = Article.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

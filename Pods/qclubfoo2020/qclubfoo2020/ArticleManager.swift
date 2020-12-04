@@ -10,9 +10,6 @@ import Foundation
 import CoreData
 
 public protocol IArticleManager: class {
-    
-    var context: NSManagedObjectContext { get }
-    
     func getAllArticles() -> [Article]?
     func getArticles(withLang lang: String) -> [Article]?
     func getArticles(containingString str: String) -> [Article]?
@@ -24,7 +21,7 @@ public protocol IArticleManager: class {
 public class ArticleManager: IArticleManager {
     
     private lazy var container: NSPersistentContainer = {
-        let container = NSPersistentContainer(name: "Article")
+        let container = NSPersistentContainer(name: "article")
         container.loadPersistentStores { storeDescription, error in
             if let error = error as NSError? {
                 fatalError("something went wrong \(error.localizedDescription)")
@@ -33,11 +30,9 @@ public class ArticleManager: IArticleManager {
         return container
     }()
     
-    public var context: NSManagedObjectContext {
+    public lazy var context = {
         self.container.viewContext
     }
-    
-    public init() {}
     
     public func getAllArticles() -> [Article]? {
         let context = container.viewContext

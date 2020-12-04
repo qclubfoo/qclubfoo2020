@@ -1,0 +1,6 @@
+framework module qclubfoo2020 {
+  umbrella header "qclubfoo2020-umbrella.h"
+
+  export *
+  module * { export * }
+}
