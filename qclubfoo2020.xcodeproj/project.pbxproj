@@ -14,6 +14,10 @@
 		008273B9257A5DE2001285DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008273B7257A5DE2001285DB /* Main.storyboard */; };
 		008273BB257A5DE4001285DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008273BA257A5DE4001285DB /* Assets.xcassets */; };
 		008273BE257A5DE4001285DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008273BC257A5DE4001285DB /* LaunchScreen.storyboard */; };
+		008273C7257A6005001285DB /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 008273C5257A6005001285DB /* article.xcdatamodeld */; };
+		008273CE257A688D001285DB /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008273CC257A688D001285DB /* Article+CoreDataProperties.swift */; };
+		008273CF257A688D001285DB /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008273CD257A688D001285DB /* Article+CoreDataClass.swift */; };
+		008273D1257A69F1001285DB /* qclubfoo2020.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 008273D0257A69F1001285DB /* qclubfoo2020.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		008273BA257A5DE4001285DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		008273BD257A5DE4001285DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		008273BF257A5DE4001285DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008273C6257A6005001285DB /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
+		008273CC257A688D001285DB /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		008273CD257A688D001285DB /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataClass.swift"; sourceTree = "<group>"; };
+		008273D0257A69F1001285DB /* qclubfoo2020.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qclubfoo2020.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 		00827396257A5D1C001285DB = {
 			isa = PBXGroup;
 			children = (
+				008273D0257A69F1001285DB /* qclubfoo2020.podspec */,
 				008273A2257A5D1C001285DB /* qclubfoo2020 */,
 				008273B0257A5DE2001285DB /* qclubfoo2020Examples */,
 				008273A1257A5D1C001285DB /* Products */,
@@ -69,8 +78,11 @@
 		008273A2257A5D1C001285DB /* qclubfoo2020 */ = {
 			isa = PBXGroup;
 			children = (
+				008273CD257A688D001285DB /* Article+CoreDataClass.swift */,
+				008273CC257A688D001285DB /* Article+CoreDataProperties.swift */,
 				008273A3257A5D1C001285DB /* qclubfoo2020.h */,
 				008273A4257A5D1C001285DB /* Info.plist */,
+				008273C5257A6005001285DB /* article.xcdatamodeld */,
 			);
 			path = qclubfoo2020;
 			sourceTree = "<group>";
@@ -150,6 +162,7 @@
 				TargetAttributes = {
 					0082739F257A5D1C001285DB = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 					};
 					008273AE257A5DE2001285DB = {
 						CreatedOnToolsVersion = 11.7;
@@ -180,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008273D1257A69F1001285DB /* qclubfoo2020.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008273CF257A688D001285DB /* Article+CoreDataClass.swift in Sources */,
+				008273CE257A688D001285DB /* Article+CoreDataProperties.swift in Sources */,
+				008273C7257A6005001285DB /* article.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +375,7 @@
 		008273A9257A5D1C001285DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6PM6W9L3YQ;
@@ -376,6 +394,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -384,6 +403,7 @@
 		008273AA257A5D1C001285DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6PM6W9L3YQ;
@@ -476,6 +496,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		008273C5257A6005001285DB /* article.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				008273C6257A6005001285DB /* article.xcdatamodel */,
+			);
+			currentVersion = 008273C6257A6005001285DB /* article.xcdatamodel */;
+			path = article.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 00827397257A5D1C001285DB /* Project object */;
 }
