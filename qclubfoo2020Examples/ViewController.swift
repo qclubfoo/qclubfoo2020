@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import qclubfoo2020
 
 class ViewController: UIViewController {
 

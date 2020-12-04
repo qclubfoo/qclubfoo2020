@@ -18,6 +18,7 @@
 		008273CE257A688D001285DB /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008273CC257A688D001285DB /* Article+CoreDataProperties.swift */; };
 		008273CF257A688D001285DB /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008273CD257A688D001285DB /* Article+CoreDataClass.swift */; };
 		008273D1257A69F1001285DB /* qclubfoo2020.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 008273D0257A69F1001285DB /* qclubfoo2020.podspec */; };
+		008273F3257A71D4001285DB /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008273F2257A71D4001285DB /* ArticleManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		008273CC257A688D001285DB /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		008273CD257A688D001285DB /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataClass.swift"; sourceTree = "<group>"; };
 		008273D0257A69F1001285DB /* qclubfoo2020.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qclubfoo2020.podspec; sourceTree = "<group>"; };
+		008273F2257A71D4001285DB /* ArticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				008273A3257A5D1C001285DB /* qclubfoo2020.h */,
 				008273A4257A5D1C001285DB /* Info.plist */,
 				008273C5257A6005001285DB /* article.xcdatamodeld */,
+				008273F2257A71D4001285DB /* ArticleManager.swift */,
 			);
 			path = qclubfoo2020;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			files = (
 				008273CF257A688D001285DB /* Article+CoreDataClass.swift in Sources */,
 				008273CE257A688D001285DB /* Article+CoreDataProperties.swift in Sources */,
+				008273F3257A71D4001285DB /* ArticleManager.swift in Sources */,
 				008273C7257A6005001285DB /* article.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -360,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -384,7 +388,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = qclubfoo2020/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -412,7 +416,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = qclubfoo2020/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -434,7 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6PM6W9L3YQ;
 				INFOPLIST_FILE = qclubfoo2020Examples/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.home.qclubfoo2020Examples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,7 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6PM6W9L3YQ;
 				INFOPLIST_FILE = qclubfoo2020Examples/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,7 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.home.qclubfoo2020Examples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
