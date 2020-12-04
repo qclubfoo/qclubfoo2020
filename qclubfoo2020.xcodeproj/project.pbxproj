@@ -39,7 +39,7 @@
 		008273C6257A6005001285DB /* Article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Article.xcdatamodel; sourceTree = "<group>"; };
 		008273CC257A688D001285DB /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		008273CD257A688D001285DB /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataClass.swift"; sourceTree = "<group>"; };
-		008273D0257A69F1001285DB /* qclubfoo2020.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qclubfoo2020.podspec; sourceTree = "<group>"; };
+		008273D0257A69F1001285DB /* qclubfoo2020.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qclubfoo2020.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		008273F2257A71D4001285DB /* ArticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleManager.swift; sourceTree = "<group>"; };
 		087A598FD564DE4BED8C4C11 /* Pods_qclubfoo2020Examples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qclubfoo2020Examples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3863292A39D6FC07085A6BD9 /* Pods_qclubfoo2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qclubfoo2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
