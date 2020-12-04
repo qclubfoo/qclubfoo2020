@@ -17,7 +17,7 @@ In this framework defined CoreData stack and methods for saving and retrive arti
 
   spec.source        = { :git => "https://github.com/qclubfoo/qclubfoo2020.git", :tag => "#{spec.version}" }
   spec.source_files  = "qclubfoo2020/*.{h,m,swift}"
-  s.resources = "qclubfoo2020/*.xcdatamodeld"
+  spec.resources = "qclubfoo2020/*.xcdatamodeld"
 
 end
 
