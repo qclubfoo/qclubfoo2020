@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "qclubfoo2020"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Framework for using in Day09 of Swift piscine"
 
   spec.description  = <<-DESC
