@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "qclubfoo2020"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "Framework for using in Day09 of Swift piscine"
 
   spec.description  = <<-DESC
@@ -19,7 +19,7 @@ In this framework defined CoreData stack and methods for saving and retrive arti
   spec.source_files  = "qclubfoo2020/*.{h,m,swift}"
   spec.resources = "qclubfoo2020/*.xcdatamodeld"
   
-  s.frameworks = 'CoreData'
+  spec.frameworks = 'CoreData'
 
 end
 
